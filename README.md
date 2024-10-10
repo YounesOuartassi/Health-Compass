@@ -1,15 +1,23 @@
-\subsection{Présentation}
 
-HealthCompass est une application mobile qui vise à simplifier la gestion de la santé nutritionnelle. Elle se distingue par sa capacité à :
+## Features
 
-\begin{itemize}
-    \item Analyser les résultats d'examens cliniques.
-    \item Recommander des ajustements alimentaires personnalisés.
-    \item Fournir des conseils sur mesure pour améliorer les carences nutritionnelles.
-    \item Optimiser l'alimentation en fonction des besoins individuels.
-    \item Offrir un suivi hebdomadaire des progrès réalisés.
+- User registration and login
+- Create, read, update, and delete food entries
+- Submit doctor test documents
+- Basic authentication
 
-pip install fastapi[all] sqlalchemy pymysql passlib
+## Requirements
 
+- Python 3.7+
+- FastAPI
+- SQLAlchemy
+- MariaDB or MySQL
+- Passlib (for password hashing)
 
-uvicorn app.main:app --reload
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
+   cd your-repo
